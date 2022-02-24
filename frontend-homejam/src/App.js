@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+
+// importing figma
+import Figma from "./Components/Figma/figma";
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      {/* Rendering the above imported function */}
+      <Figma />
+    </>
   );
 }
 
